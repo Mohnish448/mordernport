@@ -36,7 +36,7 @@ export default function Footer() {
             <Mail className="w-4 h-4" />
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/mohnish-dev/"
             target="_blank"
             rel="noreferrer"
             title="Connect on LinkedIn"
