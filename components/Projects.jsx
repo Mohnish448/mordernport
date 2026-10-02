@@ -1,4 +1,3 @@
-
 'use client';
 
 import React from 'react';
@@ -74,8 +73,7 @@ const PROJECTS = [
     tags: ['Python', 'Streamlit', 'Ollama', 'Pandas'],
     status: 'COMPLETED',
     liveUrl: null,
-    githubUrl:
-      'https://github.com/Mohnish448/CRM-Notes-Follow-Up-Task-Extraction',
+    githubUrl: 'https://github.com/Mohnish448/CRM-Notes-Follow-Up-Task-Extraction',
     gradient: 'from-cyan-500/20 via-sky-950/40 to-black',
   },
 ];
@@ -84,12 +82,12 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="relative py-28 px-4 sm:px-6 pointer-events-none"
+      className="relative py-20 sm:py-28 px-4 sm:px-6 md:px-8 pointer-events-none"
     >
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-6xl mx-auto w-full">
 
         {/* Section Header */}
-        <div className="mb-16 pointer-events-auto">
+        <div className="mb-12 sm:mb-16 pointer-events-auto">
           <div className="flex items-center gap-2 mb-3">
             <span className="font-mono text-xs text-sky-400 font-bold tracking-widest uppercase">
               // 02. INDEX OF WORKS
@@ -97,25 +95,25 @@ export default function Projects() {
             <div className="h-px flex-1 bg-gradient-to-r from-sky-500/40 to-transparent" />
           </div>
 
-          <h2 className="text-3xl sm:text-5xl font-black text-white tracking-tight">
+          <h2 className="text-2xl sm:text-4xl md:text-5xl font-black text-white tracking-tight">
             FEATURED{' '}
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-sky-400 to-white">
               PROJECTS
             </span>
           </h2>
 
-          <p className="mt-3 font-mono text-sm text-neutral-300 max-w-xl">
+          <p className="mt-3 font-mono text-xs sm:text-sm text-neutral-300 max-w-xl leading-relaxed">
             Exploring AI, intelligent applications, automation and modern
             web technologies through practical projects.
           </p>
         </div>
 
         {/* Projects Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 sm:gap-6">
           {PROJECTS.map((project) => (
             <div
               key={project.id}
-              className="group relative p-6 sm:p-8 rounded-2xl bg-black/60 backdrop-blur-md border border-neutral-800 hover:border-sky-400/50 hover:shadow-[0_0_30px_rgba(56,189,248,0.2)] transition-all duration-500 pointer-events-auto overflow-hidden flex flex-col justify-between"
+              className="group relative p-5 sm:p-7 md:p-8 rounded-2xl bg-black/75 backdrop-blur-md border border-neutral-800 hover:border-sky-400/50 hover:shadow-[0_0_30px_rgba(56,189,248,0.2)] transition-all duration-500 pointer-events-auto overflow-hidden flex flex-col justify-between"
             >
               {/* Corner Cyber Accents */}
               <div className="absolute top-2 left-2 w-2 h-2 border-t border-l border-sky-400/60" />
@@ -131,7 +129,7 @@ export default function Projects() {
               <div className="relative z-10">
 
                 {/* Meta Header */}
-                <div className="flex items-center justify-between gap-4 mb-4">
+                <div className="flex items-center justify-between gap-3 mb-3 sm:mb-4">
                   <span className="font-mono text-xs font-bold text-sky-400">
                     PRJ_{project.id}
                   </span>
@@ -150,25 +148,25 @@ export default function Projects() {
                 </div>
 
                 {/* Category */}
-                <div className="font-mono text-[11px] text-neutral-300 mb-1 tracking-wider uppercase">
+                <div className="font-mono text-[10px] sm:text-[11px] text-neutral-400 mb-1 tracking-wider uppercase">
                   {project.category}
                 </div>
 
                 {/* Project Title */}
-                <h3 className="text-2xl font-bold text-white group-hover:text-sky-300 transition-colors duration-300 mb-5">
+                <h3 className="text-xl sm:text-2xl font-bold text-white group-hover:text-sky-300 transition-colors duration-300 mb-4 sm:mb-5">
                   {project.title}
                 </h3>
 
-                {/* Three Project Highlights */}
-                <div className="space-y-4 mb-7">
+                {/* Highlights */}
+                <div className="space-y-3 sm:space-y-4 mb-6 sm:mb-7">
                   {project.points.map((point, index) => (
-                    <div key={point.title} className="flex gap-3">
+                    <div key={point.title} className="flex gap-2.5 sm:gap-3">
                       <span className="shrink-0 font-mono text-xs font-bold text-sky-400 mt-0.5">
                         0{index + 1}
                       </span>
 
                       <div>
-                        <h4 className="font-mono text-xs font-bold text-white mb-1 group-hover:text-sky-300 transition-colors">
+                        <h4 className="font-mono text-xs font-bold text-white mb-0.5 sm:mb-1 group-hover:text-sky-300 transition-colors">
                           {point.title}
                         </h4>
                         <p className="font-mono text-[11px] text-neutral-300 leading-relaxed">
@@ -188,7 +186,7 @@ export default function Projects() {
                   {project.tags.map((tag) => (
                     <span
                       key={tag}
-                      className="font-mono text-[10px] px-2 py-0.5 rounded bg-neutral-900 border border-neutral-800 text-neutral-300 group-hover:border-sky-500/30 transition-colors"
+                      className="font-mono text-[9px] sm:text-[10px] px-2 py-0.5 rounded bg-neutral-900 border border-neutral-800 text-neutral-300 group-hover:border-sky-500/30 transition-colors"
                     >
                       {tag}
                     </span>
@@ -196,17 +194,17 @@ export default function Projects() {
                 </div>
 
                 {/* Project Links */}
-                <div className="flex items-center gap-2">
+                <div className="flex items-center gap-2 ml-auto sm:ml-0">
                   {project.liveUrl && (
                     <a
                       href={project.liveUrl}
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label={`Live demo of ${project.title}`}
-                      className="flex items-center gap-1.5 px-3 py-2 rounded-lg bg-neutral-900/80 hover:bg-sky-500 hover:text-black border border-white/10 text-neutral-300 transition-all duration-200"
+                      className="flex items-center gap-1.5 px-3 py-1.5 sm:py-2 rounded-lg bg-neutral-900/90 hover:bg-sky-500 hover:text-black border border-white/10 text-neutral-300 transition-all duration-200"
                     >
                       <ExternalLink className="w-3.5 h-3.5" />
-                      <span className="font-mono text-[10px]">
+                      <span className="font-mono text-[10px] font-bold">
                         LIVE
                       </span>
                     </a>
@@ -218,10 +216,10 @@ export default function Projects() {
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label={`GitHub repository for ${project.title}`}
-                      className="flex items-center gap-1.5 px-3 py-2 rounded-lg bg-neutral-900/80 hover:bg-neutral-800 border border-white/10 text-neutral-300 transition-all duration-200"
+                      className="flex items-center gap-1.5 px-3 py-1.5 sm:py-2 rounded-lg bg-neutral-900/90 hover:bg-neutral-800 border border-white/10 text-neutral-300 transition-all duration-200"
                     >
                       <Code2 className="w-3.5 h-3.5" />
-                      <span className="font-mono text-[10px]">
+                      <span className="font-mono text-[10px] font-bold">
                         CODE
                       </span>
                     </a>

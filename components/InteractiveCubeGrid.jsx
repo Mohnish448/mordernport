@@ -34,9 +34,28 @@ export default function InteractiveCubeGrid({
     const height = container.clientHeight || window.innerHeight;
 
     const camera = new THREE.PerspectiveCamera(42, width / height, 0.1, 1000);
-    // Isometric-angled perspective
-    camera.position.set(0, 36, 42);
-    camera.lookAt(0, -1, 0);
+
+    const updateCameraForViewport = (w, h) => {
+      const aspect = w / h;
+      camera.aspect = aspect;
+      if (aspect < 0.9) {
+        // Mobile portrait: increase FOV and elevate camera so full matrix is visible
+        camera.fov = Math.min(65, 42 / Math.max(0.55, aspect));
+        camera.position.set(0, 44, 52);
+      } else if (aspect < 1.2) {
+        // Tablet / square viewport
+        camera.fov = 48;
+        camera.position.set(0, 38, 46);
+      } else {
+        // Desktop widescreen
+        camera.fov = 42;
+        camera.position.set(0, 36, 42);
+      }
+      camera.lookAt(0, -1, 0);
+      camera.updateProjectionMatrix();
+    };
+
+    updateCameraForViewport(width, height);
 
     const renderer = new THREE.WebGLRenderer({
       powerPreference: 'high-performance',
@@ -226,8 +245,7 @@ export default function InteractiveCubeGrid({
       if (!container) return;
       const w = container.clientWidth || window.innerWidth;
       const h = container.clientHeight || window.innerHeight;
-      camera.aspect = w / h;
-      camera.updateProjectionMatrix();
+      updateCameraForViewport(w, h);
       renderer.setSize(w, h);
     };
 
@@ -420,9 +438,16 @@ export default function InteractiveCubeGrid({
   }, []);
 
   return (
-    <div className="fixed inset-0 w-full h-full overflow-hidden pointer-events-auto select-none bg-black">
+    <div 
+      className="fixed inset-0 w-full h-full overflow-hidden pointer-events-auto select-none bg-black"
+      style={{ touchAction: 'pan-y' }}
+    >
       {/* ThreeJS WebGL Canvas Container */}
-      <div ref={mountRef} className="absolute inset-0 w-full h-full cursor-crosshair" />
+      <div 
+        ref={mountRef} 
+        className="absolute inset-0 w-full h-full cursor-crosshair" 
+        style={{ touchAction: 'pan-y' }}
+      />
 
       {/* Cyber Vignette & Subtle Scanlines Overlay */}
       <div className="absolute inset-0 pointer-events-none bg-[radial-gradient(circle_at_center,transparent_0%,rgba(2,4,8,0.7)_70%,rgba(0,0,0,0.95)_100%)]" />
