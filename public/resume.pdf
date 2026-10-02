@@ -1,0 +1,125 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 2786 >>
+stream
+BT
+/F2 22 Tf
+1 0 0 1 50 740 Tm
+(MOHNISH KUMAR) Tj
+/F1 12 Tf
+1 0 0 1 50 720 Tm
+(Python Developer & AI Specialist | Generative AI & Agentic AI) Tj
+/F1 10 Tf
+1 0 0 1 50 702 Tm
+(Email: mohnishkumar724@gmail.com  |  GitHub: github.com/Mohnish448) Tj
+/F1 10 Tf
+1 0 0 1 50 690 Tm
+(----------------------------------------------------------------------------------------------------------------) Tj
+/F2 13 Tf
+1 0 0 1 50 672 Tm
+(PROFESSIONAL SUMMARY) Tj
+/F1 10 Tf
+1 0 0 1 50 654 Tm
+(Passionate Python Developer and AI Enthusiast specializing in Generative AI, Agentic workflows,) Tj
+/F1 10 Tf
+1 0 0 1 50 640 Tm
+(and full-stack interactive applications. Experienced in developing intelligent document intelligence,) Tj
+/F1 10 Tf
+1 0 0 1 50 626 Tm
+(automated CRM task extractors, and scalable modern web solutions.) Tj
+/F2 13 Tf
+1 0 0 1 50 598 Tm
+(CORE TECHNICAL SKILLS) Tj
+/F1 10 Tf
+1 0 0 1 50 580 Tm
+(* Generative AI & Agents: LangChain, Ollama \(Local LLMs\), Prompt Engineering, AI Workflows) Tj
+/F1 10 Tf
+1 0 0 1 50 566 Tm
+(* Backend & Data: Python, FastAPI, REST APIs, Pandas, SQL & Database Management, R) Tj
+/F1 10 Tf
+1 0 0 1 50 552 Tm
+(* Frontend & 3D: React, Next.js, JavaScript \(ES6+\), Tailwind CSS, Three.js, HTML5/CSS3) Tj
+/F1 10 Tf
+1 0 0 1 50 538 Tm
+(* Tools & Cloud: Git, GitHub, Firebase, Figma, UI/UX Prototyping, Docker) Tj
+/F2 13 Tf
+1 0 0 1 50 510 Tm
+(FEATURED PROJECTS) Tj
+/F2 11 Tf
+1 0 0 1 50 492 Tm
+(1. DocPilot AI - AI-Powered Document Intelligence & Processing) Tj
+/F1 9 Tf
+1 0 0 1 50 478 Tm
+(   - Live Production Application \(docpilot-ai-production.up.railway.app\)) Tj
+/F1 9 Tf
+1 0 0 1 50 466 Tm
+(   - Simplifies document handling and intelligent extraction using LLM pipelines.) Tj
+/F1 9 Tf
+1 0 0 1 50 454 Tm
+(   - Built with Python, LLMs, and modern API infrastructure.) Tj
+/F2 11 Tf
+1 0 0 1 50 432 Tm
+(2. NextStep AI - Career Roadmap & Structured Skill Planning) Tj
+/F1 9 Tf
+1 0 0 1 50 418 Tm
+(   - Transforms user aspirations into modular, phased learning journeys.) Tj
+/F1 9 Tf
+1 0 0 1 50 406 Tm
+(   - Stack: Next.js, Firebase, LangChain, FastAPI, Groq.) Tj
+/F2 11 Tf
+1 0 0 1 50 384 Tm
+(3. CRM Notes Follow-Up - Automated Task & Action-Item Extraction) Tj
+/F1 9 Tf
+1 0 0 1 50 370 Tm
+(   - Converts unstructured meeting notes into prioritized CRM tasks with deadline detection.) Tj
+/F1 9 Tf
+1 0 0 1 50 358 Tm
+(   - Implemented human-in-the-loop review for uncertain flags.) Tj
+/F1 9 Tf
+1 0 0 1 50 346 Tm
+(   - Stack: Python, Streamlit, Ollama, Pandas.) Tj
+/F2 13 Tf
+1 0 0 1 50 318 Tm
+(CONTACT & PORTFOLIO) Tj
+/F1 10 Tf
+1 0 0 1 50 300 Tm
+(* Primary Email: mohnishkumar724@gmail.com) Tj
+/F1 10 Tf
+1 0 0 1 50 286 Tm
+(* GitHub Repository: https://github.com/Mohnish448) Tj
+/F1 10 Tf
+1 0 0 1 50 272 Tm
+(* Portfolio: Active Protocol // Open for New Opportunities) Tj
+ET
+
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000251 00000 n 
+0000003089 00000 n 
+0000003159 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+3234
+%%EOF
