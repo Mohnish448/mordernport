@@ -129,7 +129,7 @@ export default function ContactTerminal() {
               </a>
 
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/mohnish-dev/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-sky-950/80 hover:bg-sky-900 border border-sky-500/30 text-sky-200 hover:text-white text-xs font-mono transition-all cursor-pointer"
