@@ -69,7 +69,7 @@ export default function Hero({ onTriggerPulse }) {
 
         {/* LinkedIn Quick Connect */}
         <a
-          href="https://linkedin.com"
+          href="https://www.linkedin.com/in/mohnish-dev/"
           target="_blank"
           rel="noopener noreferrer"
           title="Connect on LinkedIn"
