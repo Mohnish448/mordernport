@@ -6,6 +6,7 @@ import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import Projects from '../components/Projects';
 import Skills from '../components/Skills';
+import Experience from '../components/Experience';
 import ContactTerminal from '../components/ContactTerminal';
 import Footer from '../components/Footer';
 import MatrixHUD from '../components/MatrixHUD';
@@ -51,6 +52,7 @@ export default function PortfolioPage() {
         <Hero onTriggerPulse={triggerPulseWave} />
         <Projects />
         <Skills />
+        <Experience />
         <ContactTerminal />
         <Footer />
       </div>

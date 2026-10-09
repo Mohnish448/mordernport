@@ -9,96 +9,108 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> >>
 endobj
 4 0 obj
-<< /Length 2786 >>
+<< /Length 3633 >>
 stream
 BT
-/F2 22 Tf
-1 0 0 1 50 740 Tm
+/F2 20 Tf
+1 0 0 1 50 745 Tm
 (MOHNISH KUMAR) Tj
-/F1 12 Tf
-1 0 0 1 50 720 Tm
-(Python Developer & AI Specialist | Generative AI & Agentic AI) Tj
 /F1 10 Tf
-1 0 0 1 50 702 Tm
+1 0 0 1 50 728 Tm
+(Python Developer & AI Specialist | Generative AI & Agentic Workflows) Tj
+/F1 9 Tf
+1 0 0 1 50 714 Tm
 (Email: mohnishkumar724@gmail.com  |  GitHub: github.com/Mohnish448) Tj
-/F1 10 Tf
-1 0 0 1 50 690 Tm
+/F1 9 Tf
+1 0 0 1 50 704 Tm
 (----------------------------------------------------------------------------------------------------------------) Tj
-/F2 13 Tf
-1 0 0 1 50 672 Tm
+/F2 11 Tf
+1 0 0 1 50 690 Tm
 (PROFESSIONAL SUMMARY) Tj
-/F1 10 Tf
-1 0 0 1 50 654 Tm
-(Passionate Python Developer and AI Enthusiast specializing in Generative AI, Agentic workflows,) Tj
-/F1 10 Tf
-1 0 0 1 50 640 Tm
-(and full-stack interactive applications. Experienced in developing intelligent document intelligence,) Tj
-/F1 10 Tf
-1 0 0 1 50 626 Tm
-(automated CRM task extractors, and scalable modern web solutions.) Tj
-/F2 13 Tf
-1 0 0 1 50 598 Tm
+/F1 9 Tf
+1 0 0 1 50 676 Tm
+(Python Developer and AI Enthusiast specializing in Generative AI, LLM applications, agentic workflows,) Tj
+/F1 9 Tf
+1 0 0 1 50 664 Tm
+(and backend API engineering. Proven experience in turning unstructured operational data into reliable,) Tj
+/F1 9 Tf
+1 0 0 1 50 652 Tm
+(automated processing pipelines with human-in-the-loop review.) Tj
+/F2 11 Tf
+1 0 0 1 50 634 Tm
+(PROFESSIONAL EXPERIENCE) Tj
+/F2 9.5 Tf
+1 0 0 1 50 620 Tm
+(First Quadrant Labs  -  LLM Application Developer \(Internship, Pursuing\)) Tj
+/F1 8.5 Tf
+1 0 0 1 50 608 Tm
+(   - Developed AI-powered workflows to transform unstructured operational notes into structured, actionable data.) Tj
+/F1 8.5 Tf
+1 0 0 1 50 596 Tm
+(   - Built Python-based applications and APIs for information extraction, data validation, and automated processing.) Tj
+/F1 8.5 Tf
+1 0 0 1 50 584 Tm
+(   - Stack: Python, FastAPI, REST APIs, Pandas, JSON, CSV, Streamlit, Ollama, LLMs, Pytest, Git, Swagger.) Tj
+/F2 9.5 Tf
+1 0 0 1 50 568 Tm
+(Surekha Enterprise  -  Computer Hardware Installer & Tester \(Internship, 6 Months\)) Tj
+/F1 8.5 Tf
+1 0 0 1 50 556 Tm
+(   - Executed hardware diagnostics, assembly, component testing, and preventive system maintenance.) Tj
+/F1 8.5 Tf
+1 0 0 1 50 544 Tm
+(   - Configured operating systems, device drivers, and BIOS/UEFI settings for reliable workstation performance.) Tj
+/F1 8.5 Tf
+1 0 0 1 50 532 Tm
+(   - Tools: Hardware Diagnostics, PC Assembly, Windows OS, Drivers, BIOS/UEFI, Hardware Troubleshooting.) Tj
+/F2 11 Tf
+1 0 0 1 50 514 Tm
 (CORE TECHNICAL SKILLS) Tj
-/F1 10 Tf
-1 0 0 1 50 580 Tm
-(* Generative AI & Agents: LangChain, Ollama \(Local LLMs\), Prompt Engineering, AI Workflows) Tj
-/F1 10 Tf
-1 0 0 1 50 566 Tm
-(* Backend & Data: Python, FastAPI, REST APIs, Pandas, SQL & Database Management, R) Tj
-/F1 10 Tf
-1 0 0 1 50 552 Tm
-(* Frontend & 3D: React, Next.js, JavaScript \(ES6+\), Tailwind CSS, Three.js, HTML5/CSS3) Tj
-/F1 10 Tf
-1 0 0 1 50 538 Tm
-(* Tools & Cloud: Git, GitHub, Firebase, Figma, UI/UX Prototyping, Docker) Tj
-/F2 13 Tf
-1 0 0 1 50 510 Tm
+/F1 8.5 Tf
+1 0 0 1 50 500 Tm
+(* GenAI & LLMs: LangChain, Ollama, Prompt Engineering, LLM Integration, Agentic Workflows) Tj
+/F1 8.5 Tf
+1 0 0 1 50 488 Tm
+(* Backend & Data: Python, FastAPI, REST APIs, Pandas, SQL, JSON, CSV, Pytest, R) Tj
+/F1 8.5 Tf
+1 0 0 1 50 476 Tm
+(* Frontend & 3D: React, Next.js, JavaScript, Tailwind CSS, Three.js, HTML5/CSS3) Tj
+/F1 8.5 Tf
+1 0 0 1 50 464 Tm
+(* Tools: Git, GitHub, Streamlit, Firebase, Figma, BIOS/UEFI, Hardware Diagnostics) Tj
+/F2 11 Tf
+1 0 0 1 50 446 Tm
 (FEATURED PROJECTS) Tj
-/F2 11 Tf
-1 0 0 1 50 492 Tm
-(1. DocPilot AI - AI-Powered Document Intelligence & Processing) Tj
-/F1 9 Tf
-1 0 0 1 50 478 Tm
-(   - Live Production Application \(docpilot-ai-production.up.railway.app\)) Tj
-/F1 9 Tf
-1 0 0 1 50 466 Tm
-(   - Simplifies document handling and intelligent extraction using LLM pipelines.) Tj
-/F1 9 Tf
-1 0 0 1 50 454 Tm
-(   - Built with Python, LLMs, and modern API infrastructure.) Tj
-/F2 11 Tf
+/F2 9.5 Tf
 1 0 0 1 50 432 Tm
-(2. NextStep AI - Career Roadmap & Structured Skill Planning) Tj
-/F1 9 Tf
-1 0 0 1 50 418 Tm
-(   - Transforms user aspirations into modular, phased learning journeys.) Tj
-/F1 9 Tf
-1 0 0 1 50 406 Tm
-(   - Stack: Next.js, Firebase, LangChain, FastAPI, Groq.) Tj
+(1. DocPilot AI - AI-Powered Document Intelligence & Processing \(Deployed\)) Tj
+/F1 8.5 Tf
+1 0 0 1 50 420 Tm
+(   - Deployed at docpilot-ai-production.up.railway.app | Stack: Python, LLMs, API infrastructure.) Tj
+/F1 8.5 Tf
+1 0 0 1 50 408 Tm
+(   - Simplifies document handling with automated parsing and intelligent information extraction.) Tj
+/F2 9.5 Tf
+1 0 0 1 50 392 Tm
+(2. NextStep AI - Career Roadmaps & Structured Learning Guidance) Tj
+/F1 8.5 Tf
+1 0 0 1 50 380 Tm
+(   - Stack: Next.js, Firebase, LangChain, FastAPI, Groq | Generates personalized learning paths.) Tj
+/F2 9.5 Tf
+1 0 0 1 50 364 Tm
+(3. CRM Notes Follow-Up - Automated Task Extraction \(Completed\)) Tj
+/F1 8.5 Tf
+1 0 0 1 50 352 Tm
+(   - Stack: Python, Streamlit, Ollama, Pandas | Converts unstructured CRM notes to prioritized tasks.) Tj
 /F2 11 Tf
-1 0 0 1 50 384 Tm
-(3. CRM Notes Follow-Up - Automated Task & Action-Item Extraction) Tj
-/F1 9 Tf
-1 0 0 1 50 370 Tm
-(   - Converts unstructured meeting notes into prioritized CRM tasks with deadline detection.) Tj
-/F1 9 Tf
-1 0 0 1 50 358 Tm
-(   - Implemented human-in-the-loop review for uncertain flags.) Tj
-/F1 9 Tf
-1 0 0 1 50 346 Tm
-(   - Stack: Python, Streamlit, Ollama, Pandas.) Tj
-/F2 13 Tf
-1 0 0 1 50 318 Tm
+1 0 0 1 50 332 Tm
 (CONTACT & PORTFOLIO) Tj
-/F1 10 Tf
-1 0 0 1 50 300 Tm
-(* Primary Email: mohnishkumar724@gmail.com) Tj
-/F1 10 Tf
-1 0 0 1 50 286 Tm
-(* GitHub Repository: https://github.com/Mohnish448) Tj
-/F1 10 Tf
-1 0 0 1 50 272 Tm
-(* Portfolio: Active Protocol // Open for New Opportunities) Tj
+/F1 8.5 Tf
+1 0 0 1 50 318 Tm
+(* Primary Email: mohnishkumar724@gmail.com  |  GitHub: https://github.com/Mohnish448) Tj
+/F1 8.5 Tf
+1 0 0 1 50 306 Tm
+(* Status: Active Protocol // Open for New Opportunities) Tj
 ET
 
 endstream
@@ -116,10 +128,10 @@ xref
 0000000058 00000 n 
 0000000115 00000 n 
 0000000251 00000 n 
-0000003089 00000 n 
-0000003159 00000 n 
+0000003936 00000 n 
+0000004006 00000 n 
 trailer
 << /Size 7 /Root 1 0 R >>
 startxref
-3234
+4081
 %%EOF

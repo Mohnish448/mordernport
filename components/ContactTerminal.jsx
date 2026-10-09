@@ -81,7 +81,7 @@ export default function ContactTerminal() {
         <div className="mb-10 text-center pointer-events-auto">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-sky-950/40 border border-sky-400/30 text-sky-300 font-mono text-xs mb-4">
             <Radio className="w-3.5 h-3.5 text-sky-400 animate-pulse" />
-            <span>DIRECT LINK // ENCRYPTED PROTOCOL</span>
+            <span>DIRECT LINK / ENCRYPTED PROTOCOL</span>
           </div>
           <h2 className="text-2xl sm:text-4xl md:text-5xl font-black text-white tracking-tight">
             INITIATE <span className="bg-clip-text text-transparent bg-gradient-to-r from-sky-400 to-white">TRANSMISSION</span>
@@ -154,7 +154,7 @@ export default function ContactTerminal() {
               <span className="ml-1.5 font-mono text-[11px] sm:text-xs text-neutral-400 flex items-center gap-1.5 truncate">
                 <Terminal className="w-3.5 h-3.5 text-sky-400 shrink-0" />
                 <span>COMMS_SHELL v1.4.2</span>
-                <span className="hidden md:inline text-neutral-500">// TARGET: {RECIPIENT_EMAIL}</span>
+                <span className="hidden md:inline text-neutral-500">/ TARGET: {RECIPIENT_EMAIL}</span>
               </span>
             </div>
             <div className="flex items-center gap-1.5 font-mono text-[10px] text-sky-400 shrink-0">

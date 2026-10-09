@@ -59,7 +59,7 @@ export default function Skills() {
         <div className="mb-12 sm:mb-14 pointer-events-auto">
           <div className="flex items-center gap-2 mb-3">
             <span className="font-mono text-xs text-sky-400 font-bold tracking-widest uppercase">
-              // 03. CORE SYSTEMS
+              / 03. CORE SYSTEMS
             </span>
             <div className="h-px flex-1 bg-gradient-to-r from-sky-500/40 to-transparent" />
           </div>

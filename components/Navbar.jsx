@@ -74,19 +74,25 @@ export default function Navbar({ onTriggerPulse }) {
               href="#projects"
               className="text-neutral-300 hover:text-sky-400 transition-colors duration-200 group flex items-center gap-1"
             >
-              <span className="text-sky-500/50 group-hover:text-sky-400">01//</span> ARCHIVE
+              <span className="text-sky-500/50 group-hover:text-sky-400">01 /</span> ARCHIVE
             </a>
             <a
               href="#capabilities"
               className="text-neutral-300 hover:text-sky-400 transition-colors duration-200 group flex items-center gap-1"
             >
-              <span className="text-sky-500/50 group-hover:text-sky-400">02//</span> CAPABILITIES
+              <span className="text-sky-500/50 group-hover:text-sky-400">02 /</span> CAPABILITIES
+            </a>
+            <a
+              href="#experience"
+              className="text-neutral-300 hover:text-sky-400 transition-colors duration-200 group flex items-center gap-1"
+            >
+              <span className="text-sky-500/50 group-hover:text-sky-400">03 /</span> EXPERIENCE
             </a>
             <a
               href="#contact"
               className="text-neutral-300 hover:text-sky-400 transition-colors duration-200 group flex items-center gap-1"
             >
-              <span className="text-sky-500/50 group-hover:text-sky-400">03//</span> TRANSMIT
+              <span className="text-sky-500/50 group-hover:text-sky-400">04 /</span> TRANSMIT
             </a>
             <a
               href="/resume.pdf"
@@ -94,13 +100,23 @@ export default function Navbar({ onTriggerPulse }) {
               className="text-sky-300 hover:text-white transition-colors duration-200 group flex items-center gap-1"
               title="Download Mohnish Kumar's Resume"
             >
-              <span className="text-sky-500/50 group-hover:text-sky-400">04//</span> RESUME
+              <span className="text-sky-500/50 group-hover:text-sky-400">05 /</span> RESUME
             </a>
           </nav>
         </div>
 
         {/* Pulse Matrix & Live Indicator */}
         <div className="flex items-center gap-3 pointer-events-auto">
+          {onTriggerPulse && (
+            <button
+              onClick={onTriggerPulse}
+              className="relative inline-flex items-center gap-2 px-3.5 py-2 rounded-lg font-mono text-xs font-semibold text-sky-200 bg-sky-950/60 border border-sky-400/40 hover:border-sky-300 hover:bg-sky-900/60 shadow-[0_0_15px_rgba(56,189,248,0.25)] hover:shadow-[0_0_25px_rgba(56,189,248,0.45)] transition-all duration-300 cursor-pointer backdrop-blur-md"
+            >
+              <Sparkles className="w-3.5 h-3.5 text-sky-400" />
+              <span>PULSE MATRIX</span>
+            </button>
+          )}
+
           <div className="flex items-center gap-2 px-3 py-2 rounded-lg bg-black/80 backdrop-blur-md border border-neutral-800 text-[11px] font-mono text-emerald-400 shadow-[0_0_12px_rgba(0,0,0,0.5)]">
             <span className="w-2 h-2 rounded-full bg-emerald-400 animate-ping" />
             <span className="font-semibold tracking-wider">LIVE</span>
@@ -154,7 +170,7 @@ export default function Navbar({ onTriggerPulse }) {
                 onClick={handleLinkClick}
                 className="flex items-center justify-between px-3 py-2.5 rounded-lg bg-neutral-950/80 hover:bg-sky-950/50 border border-neutral-900 hover:border-sky-500/30 text-neutral-200 hover:text-sky-300 transition-all"
               >
-                <span>01 // ARCHIVE &amp; PROJECTS</span>
+                <span>01 / ARCHIVE &amp; PROJECTS</span>
                 <span className="text-sky-400 text-xs">GO &rarr;</span>
               </a>
 
@@ -163,7 +179,16 @@ export default function Navbar({ onTriggerPulse }) {
                 onClick={handleLinkClick}
                 className="flex items-center justify-between px-3 py-2.5 rounded-lg bg-neutral-950/80 hover:bg-sky-950/50 border border-neutral-900 hover:border-sky-500/30 text-neutral-200 hover:text-sky-300 transition-all"
               >
-                <span>02 // CORE CAPABILITIES</span>
+                <span>02 / CORE CAPABILITIES</span>
+                <span className="text-sky-400 text-xs">GO &rarr;</span>
+              </a>
+
+              <a
+                href="#experience"
+                onClick={handleLinkClick}
+                className="flex items-center justify-between px-3 py-2.5 rounded-lg bg-neutral-950/80 hover:bg-sky-950/50 border border-neutral-900 hover:border-sky-500/30 text-neutral-200 hover:text-sky-300 transition-all"
+              >
+                <span>03 / PROFESSIONAL EXPERIENCE</span>
                 <span className="text-sky-400 text-xs">GO &rarr;</span>
               </a>
 
@@ -172,7 +197,7 @@ export default function Navbar({ onTriggerPulse }) {
                 onClick={handleLinkClick}
                 className="flex items-center justify-between px-3 py-2.5 rounded-lg bg-neutral-950/80 hover:bg-sky-950/50 border border-neutral-900 hover:border-sky-500/30 text-neutral-200 hover:text-sky-300 transition-all"
               >
-                <span>03 // TRANSMIT DISPATCH</span>
+                <span>04 / TRANSMIT DISPATCH</span>
                 <span className="text-sky-400 text-xs">GO &rarr;</span>
               </a>
 
@@ -184,7 +209,7 @@ export default function Navbar({ onTriggerPulse }) {
               >
                 <span className="flex items-center gap-2">
                   <Download className="w-4 h-4" />
-                  <span>04 // DOWNLOAD RESUME</span>
+                  <span>05 / DOWNLOAD RESUME</span>
                 </span>
                 <span className="text-xs">&darr;</span>
               </a>

@@ -3,47 +3,52 @@ const path = require('path');
 
 function createPdf() {
   const lines = [
-    { text: 'MOHNISH KUMAR', size: 22, x: 50, y: 740, font: '/F2' },
-    { text: 'Python Developer & AI Specialist | Generative AI & Agentic AI', size: 12, x: 50, y: 720, font: '/F1' },
-    { text: 'Email: mohnishkumar724@gmail.com  |  GitHub: github.com/Mohnish448', size: 10, x: 50, y: 702, font: '/F1' },
+    { text: 'MOHNISH KUMAR', size: 20, x: 50, y: 745, font: '/F2' },
+    { text: 'Python Developer & AI Specialist | Generative AI & Agentic Workflows', size: 10, x: 50, y: 728, font: '/F1' },
+    { text: 'Email: mohnishkumar724@gmail.com  |  GitHub: github.com/Mohnish448', size: 9, x: 50, y: 714, font: '/F1' },
     
-    { text: '----------------------------------------------------------------------------------------------------------------', size: 10, x: 50, y: 690, font: '/F1' },
+    { text: '----------------------------------------------------------------------------------------------------------------', size: 9, x: 50, y: 704, font: '/F1' },
     
-    { text: 'PROFESSIONAL SUMMARY', size: 13, x: 50, y: 672, font: '/F2' },
-    { text: 'Passionate Python Developer and AI Enthusiast specializing in Generative AI, Agentic workflows,', size: 10, x: 50, y: 654, font: '/F1' },
-    { text: 'and full-stack interactive applications. Experienced in developing intelligent document intelligence,', size: 10, x: 50, y: 640, font: '/F1' },
-    { text: 'automated CRM task extractors, and scalable modern web solutions.', size: 10, x: 50, y: 626, font: '/F1' },
+    { text: 'PROFESSIONAL SUMMARY', size: 11, x: 50, y: 690, font: '/F2' },
+    { text: 'Python Developer and AI Enthusiast specializing in Generative AI, LLM applications, agentic workflows,', size: 9, x: 50, y: 676, font: '/F1' },
+    { text: 'and backend API engineering. Proven experience in turning unstructured operational data into reliable,', size: 9, x: 50, y: 664, font: '/F1' },
+    { text: 'automated processing pipelines with human-in-the-loop review.', size: 9, x: 50, y: 652, font: '/F1' },
 
-    { text: 'CORE TECHNICAL SKILLS', size: 13, x: 50, y: 598, font: '/F2' },
-    { text: '* Generative AI & Agents: LangChain, Ollama (Local LLMs), Prompt Engineering, AI Workflows', size: 10, x: 50, y: 580, font: '/F1' },
-    { text: '* Backend & Data: Python, FastAPI, REST APIs, Pandas, SQL & Database Management, R', size: 10, x: 50, y: 566, font: '/F1' },
-    { text: '* Frontend & 3D: React, Next.js, JavaScript (ES6+), Tailwind CSS, Three.js, HTML5/CSS3', size: 10, x: 50, y: 552, font: '/F1' },
-    { text: '* Tools & Cloud: Git, GitHub, Firebase, Figma, UI/UX Prototyping, Docker', size: 10, x: 50, y: 538, font: '/F1' },
+    { text: 'PROFESSIONAL EXPERIENCE', size: 11, x: 50, y: 634, font: '/F2' },
+    { text: 'First Quadrant Labs  -  LLM Application Developer (Internship, Pursuing)', size: 9.5, x: 50, y: 620, font: '/F2' },
+    { text: '   - Developed AI-powered workflows to transform unstructured operational notes into structured, actionable data.', size: 8.5, x: 50, y: 608, font: '/F1' },
+    { text: '   - Built Python-based applications and APIs for information extraction, data validation, and automated processing.', size: 8.5, x: 50, y: 596, font: '/F1' },
+    { text: '   - Stack: Python, FastAPI, REST APIs, Pandas, JSON, CSV, Streamlit, Ollama, LLMs, Pytest, Git, Swagger.', size: 8.5, x: 50, y: 584, font: '/F1' },
 
-    { text: 'FEATURED PROJECTS', size: 13, x: 50, y: 510, font: '/F2' },
-    { text: '1. DocPilot AI - AI-Powered Document Intelligence & Processing', size: 11, x: 50, y: 492, font: '/F2' },
-    { text: '   - Live Production Application (docpilot-ai-production.up.railway.app)', size: 9, x: 50, y: 478, font: '/F1' },
-    { text: '   - Simplifies document handling and intelligent extraction using LLM pipelines.', size: 9, x: 50, y: 466, font: '/F1' },
-    { text: '   - Built with Python, LLMs, and modern API infrastructure.', size: 9, x: 50, y: 454, font: '/F1' },
+    { text: 'Surekha Enterprise  -  Computer Hardware Installer & Tester (Internship, 6 Months)', size: 9.5, x: 50, y: 568, font: '/F2' },
+    { text: '   - Executed hardware diagnostics, assembly, component testing, and preventive system maintenance.', size: 8.5, x: 50, y: 556, font: '/F1' },
+    { text: '   - Configured operating systems, device drivers, and BIOS/UEFI settings for reliable workstation performance.', size: 8.5, x: 50, y: 544, font: '/F1' },
+    { text: '   - Tools: Hardware Diagnostics, PC Assembly, Windows OS, Drivers, BIOS/UEFI, Hardware Troubleshooting.', size: 8.5, x: 50, y: 532, font: '/F1' },
 
-    { text: '2. NextStep AI - Career Roadmap & Structured Skill Planning', size: 11, x: 50, y: 432, font: '/F2' },
-    { text: '   - Transforms user aspirations into modular, phased learning journeys.', size: 9, x: 50, y: 418, font: '/F1' },
-    { text: '   - Stack: Next.js, Firebase, LangChain, FastAPI, Groq.', size: 9, x: 50, y: 406, font: '/F1' },
+    { text: 'CORE TECHNICAL SKILLS', size: 11, x: 50, y: 514, font: '/F2' },
+    { text: '* GenAI & LLMs: LangChain, Ollama, Prompt Engineering, LLM Integration, Agentic Workflows', size: 8.5, x: 50, y: 500, font: '/F1' },
+    { text: '* Backend & Data: Python, FastAPI, REST APIs, Pandas, SQL, JSON, CSV, Pytest, R', size: 8.5, x: 50, y: 488, font: '/F1' },
+    { text: '* Frontend & 3D: React, Next.js, JavaScript, Tailwind CSS, Three.js, HTML5/CSS3', size: 8.5, x: 50, y: 476, font: '/F1' },
+    { text: '* Tools: Git, GitHub, Streamlit, Firebase, Figma, BIOS/UEFI, Hardware Diagnostics', size: 8.5, x: 50, y: 464, font: '/F1' },
 
-    { text: '3. CRM Notes Follow-Up - Automated Task & Action-Item Extraction', size: 11, x: 50, y: 384, font: '/F2' },
-    { text: '   - Converts unstructured meeting notes into prioritized CRM tasks with deadline detection.', size: 9, x: 50, y: 370, font: '/F1' },
-    { text: '   - Implemented human-in-the-loop review for uncertain flags.', size: 9, x: 50, y: 358, font: '/F1' },
-    { text: '   - Stack: Python, Streamlit, Ollama, Pandas.', size: 9, x: 50, y: 346, font: '/F1' },
+    { text: 'FEATURED PROJECTS', size: 11, x: 50, y: 446, font: '/F2' },
+    { text: '1. DocPilot AI - AI-Powered Document Intelligence & Processing (Deployed)', size: 9.5, x: 50, y: 432, font: '/F2' },
+    { text: '   - Deployed at docpilot-ai-production.up.railway.app | Stack: Python, LLMs, API infrastructure.', size: 8.5, x: 50, y: 420, font: '/F1' },
+    { text: '   - Simplifies document handling with automated parsing and intelligent information extraction.', size: 8.5, x: 50, y: 408, font: '/F1' },
 
-    { text: 'CONTACT & PORTFOLIO', size: 13, x: 50, y: 318, font: '/F2' },
-    { text: '* Primary Email: mohnishkumar724@gmail.com', size: 10, x: 50, y: 300, font: '/F1' },
-    { text: '* GitHub Repository: https://github.com/Mohnish448', size: 10, x: 50, y: 286, font: '/F1' },
-    { text: '* Portfolio: Active Protocol // Open for New Opportunities', size: 10, x: 50, y: 272, font: '/F1' },
+    { text: '2. NextStep AI - Career Roadmaps & Structured Learning Guidance', size: 9.5, x: 50, y: 392, font: '/F2' },
+    { text: '   - Stack: Next.js, Firebase, LangChain, FastAPI, Groq | Generates personalized learning paths.', size: 8.5, x: 50, y: 380, font: '/F1' },
+
+    { text: '3. CRM Notes Follow-Up - Automated Task Extraction (Completed)', size: 9.5, x: 50, y: 364, font: '/F2' },
+    { text: '   - Stack: Python, Streamlit, Ollama, Pandas | Converts unstructured CRM notes to prioritized tasks.', size: 8.5, x: 50, y: 352, font: '/F1' },
+
+    { text: 'CONTACT & PORTFOLIO', size: 11, x: 50, y: 332, font: '/F2' },
+    { text: '* Primary Email: mohnishkumar724@gmail.com  |  GitHub: https://github.com/Mohnish448', size: 8.5, x: 50, y: 318, font: '/F1' },
+    { text: '* Status: Active Protocol // Open for New Opportunities', size: 8.5, x: 50, y: 306, font: '/F1' },
   ];
 
   let streamContent = 'BT\n';
   lines.forEach(l => {
-    // Escape parenthesis in text
     const escaped = l.text.replace(/\\/g, '\\\\').replace(/\(/g, '\\(').replace(/\)/g, '\\)');
     streamContent += `${l.font} ${l.size} Tf\n`;
     streamContent += `1 0 0 1 ${l.x} ${l.y} Tm\n`;

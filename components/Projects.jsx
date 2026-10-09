@@ -90,7 +90,7 @@ export default function Projects() {
         <div className="mb-12 sm:mb-16 pointer-events-auto">
           <div className="flex items-center gap-2 mb-3">
             <span className="font-mono text-xs text-sky-400 font-bold tracking-widest uppercase">
-              // 02. INDEX OF WORKS
+              / 02. INDEX OF WORKS
             </span>
             <div className="h-px flex-1 bg-gradient-to-r from-sky-500/40 to-transparent" />
           </div>

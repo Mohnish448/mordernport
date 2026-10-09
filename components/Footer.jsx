@@ -23,7 +23,7 @@ export default function Footer() {
 
         {/* Center */}
         <div className="font-mono text-[10px] sm:text-[11px] text-neutral-400 tracking-wider">
-          KINETIC MATRIX ANIMATION &copy; {new Date().getFullYear()} // SKY BLUE &amp; WHITE CORES
+          KINETIC MATRIX ANIMATION &copy; {new Date().getFullYear()} / SKY BLUE &amp; WHITE CORES
         </div>
 
         {/* Right Socials & Contact */}

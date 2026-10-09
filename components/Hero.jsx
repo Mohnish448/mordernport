@@ -20,7 +20,7 @@ export default function Hero({ onTriggerPulse }) {
           <Activity className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-sky-400 animate-pulse shrink-0" />
           <span className="font-mono text-[10px] sm:text-xs text-sky-200 tracking-wider">
             STATUS: <span className="text-white font-bold">ACTIVE PROTOCOL</span>
-            <span className="hidden xs:inline text-sky-400/60"> // </span>
+            <span className="hidden xs:inline text-sky-400/60"> / </span>
             <span className="hidden xs:inline">OPEN FOR NEW PROJECTS</span>
           </span>
           <div className="w-1.5 h-1.5 rounded-full bg-sky-400 shadow-[0_0_8px_#38bdf8] shrink-0" />
